@@ -1,0 +1,17 @@
+<div class="navbar">
+  <div class="navbar__left">
+  <a href="/">
+    <img src="../assets//img/logo-catalogic-colored.svg" class="navbar__logo">
+  </a>
+  <nav>
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
+      {{ item.name }} <b>+</b>
+    </a>
+  {% endfor %}
+  </nav>
+  </div>
+  <div class="navbar__right">
+    <button class="button button__big">Request demo</button>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.intro {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 5em auto;
+    width: 70%;
+  }
+
+  &__left {
+    width: 50%;
+  }
+
+  h1 {
+    color: $tertiary;
+  }
+  p {
+    font-size: 20px;
+  }
+}

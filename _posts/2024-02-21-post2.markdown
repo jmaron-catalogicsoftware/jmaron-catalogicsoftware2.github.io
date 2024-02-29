@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Post 2"
+date: 2024-02-23 16:01:14 +0100
+categories: jekyll update
+---
+
+Example of a post
